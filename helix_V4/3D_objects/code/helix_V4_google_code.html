@@ -1,0 +1,144 @@
+<model-viewer src="decay_helix_V4_GLB_V2.glb" ar ar-modes="webxr scene-viewer quick-look" 
+camera-controls tone-mapping="commerce" poster="poster.webp" 
+shadow-intensity="1" camera-orbit="-130.1deg 80.32deg 943.6m" 
+field-of-view="12deg" min-camera-orbit="auto 52deg auto" 
+max-camera-orbit="auto 82deg auto">
+    
+    <button class="Hotspot" slot="hotspot-1" data-position="354.2548386124199m 700.9847122545181m 878.6572013521462m" data-normal="0.012214106475290365m -0.017052701012788496m -0.9997799862925738m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">spot1</div>
+    </button><button class="Hotspot" slot="hotspot-2" data-position="304.7766987499463m 444.07802116627187m 900.8892627645969m" data-normal="-0.7549935954430937m -0.0009067964192180864m -0.6557315369571332m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">spot2</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="351.0631916678712m 357.5089912576404m 1005.5214233398436m" data-normal="0m 0m 1m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">spot3</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="394.1720083778372m 194.54190734065114m 947.7392645241082m" data-normal="0.9293288932202222m 0.3692530409164927m -5.551115123125783e-17m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">spot4</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
+
+
+
+{
+    "asset": {
+      "version": "2.0",
+      "generator": "GLTFExporter"
+    },
+    "scenes": [
+      {
+        "nodes": [
+          0
+        ],
+        "name": "AuxScene"
+      }
+    ],
+    "scene": 0,
+    "nodes": [
+      {
+        "mesh": 0
+      }
+    ],
+    "bufferViews": [
+      {
+        "buffer": 0,
+        "byteOffset": 0,
+        "byteLength": 386664,
+        "target": 34962,
+        "byteStride": 12
+      },
+      {
+        "buffer": 0,
+        "byteOffset": 386664,
+        "byteLength": 386664,
+        "target": 34962,
+        "byteStride": 12
+      },
+      {
+        "buffer": 0,
+        "byteOffset": 773328,
+        "byteLength": 397488,
+        "target": 34963
+      }
+    ],
+    "buffers": [
+      {
+        "byteLength": 1170816
+      }
+    ],
+    "accessors": [
+      {
+        "bufferView": 0,
+        "componentType": 5126,
+        "count": 32222,
+        "max": [
+          429.3282775878906,
+          939.0724487304688,
+          1010.6014404296875
+        ],
+        "min": [
+          288.2502746582031,
+          93.25244903564453,
+          871.638427734375
+        ],
+        "type": "VEC3"
+      },
+      {
+        "bufferView": 1,
+        "componentType": 5126,
+        "count": 32222,
+        "max": [
+          1,
+          1,
+          1
+        ],
+        "min": [
+          -0.9999999403953552,
+          -1,
+          -1
+        ],
+        "type": "VEC3"
+      },
+      {
+        "bufferView": 2,
+        "componentType": 5125,
+        "count": 99372,
+        "max": [
+          32221
+        ],
+        "min": [
+          0
+        ],
+        "type": "SCALAR"
+      }
+    ],
+    "materials": [
+      {
+        "pbrMetallicRoughness": {
+          "metallicFactor": 0.5,
+          "roughnessFactor": 0.5
+        }
+      }
+    ],
+    "meshes": [
+      {
+        "primitives": [
+          {
+            "mode": 4,
+            "attributes": {
+              "POSITION": 0,
+              "NORMAL": 1
+            },
+            "indices": 2,
+            "material": 0
+          }
+        ]
+      }
+    ]
+  }

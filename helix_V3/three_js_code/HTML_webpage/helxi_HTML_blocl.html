@@ -1,0 +1,39 @@
+<style>
+    body {
+        font-size: 16px;
+    }
+
+    #helixModel {
+        position: fixed;
+        top: 0%;
+        left: 100%; /* Default left position */
+        width: 100%;
+        height: auto;
+        z-index: 10;
+        pointer-events: none;
+    }
+
+    @media (min-width: 768px) {
+        body {
+            font-size: 18px;
+        }
+        #helixModel {
+            top: -20%;
+            left: 0%; /* Adjusted left position for wider screens */
+        }
+    }
+</style>
+
+
+<model-viewer 
+    id="helixModel"
+    src="https://joeschmidt97.github.io/helix_V3_CUT.gltf"
+    alt="A 3D model of a helix"
+    camera-orbit="calc(-1.5rad + env(window-scroll-y) * 20rad) 80deg 1000m" 
+    disable-zoom
+    disable-tap
+    style="width: 100%; height: 900px;">
+        <button class="Hotspot" slot="hotspot-1" data-position="-8.37009252699687m 7.70493031818556m 3.7708743107186184m" data-normal="-0.9106364025636178m 0.004494235223071383m 0.4131841528613513m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">https://www.google.com/</div>
+</model-viewer>
+
